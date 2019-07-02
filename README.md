@@ -32,23 +32,21 @@
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
-NovusCLI is a lite version of the full Novus package manager (Coming later this year) that allows users to start with a simple syntax, for their favorite APT package manager.
+Novus repository template is a handmade script and repo template that helps developers or hobbist, create a place to freely destribute their packages, doesnt matter if it is a Theme, Addon, Application or something else, this makes distributing under Novus easy!.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
-Getting started for contributing to NovusCLI is very easy, you just need to follow the instructions below if you wish to build from source.
+Getting started for creating your own repository is easy, just follow the instructions that are given below.
 
 ### Prerequisites
-In order to start building NovusCLI, you are going to need to have rustup and cargo installed (Installing rustup automatically installs cargo so just worry about rustup). You can get rustup [here](https://www.rust-lang.org/tools/install/).
+In order to start creating you own Novus repository is recommened that you have both [MacPT](https://github.com/Official-polar-team/MacPT) and [NovusCLI](https://github.com/Official-polar-team/NovusCLI) installed. 
 
-Without [APT](https://launchpad.net/ubuntu/+source/apt/) (Linux) or [MacPT](https://github.com/Official-polar-team/MacPT/) (macOS) it's useless though so be sure to install what fits for your system!
+Is also recommended to have basic Linux utilities like GPG installed on your Mac via [Project Serna](https://sernarepo.com/)
 
 ## Building
 
-* cd into the nvs directory (You can easily do so by opening the terminal typing ```cd``` and dragging and dropping the nvs folder into the terminal window and clicking the enter key).
-* Run ```cargo build --release``` in the terminal.
-* Make sure your in the nvs directory and from there go into the target directory and then go into the release directory (nvs --> target --> release).
-* You should see a executable file named "nvs" without the "".
-* Congratulations! You have successfully built NovusCLI (nvs)!
+We do call this section building but it's just doing basic configuration.
+
+
 
 ## Installing
 ### Using MacPT
