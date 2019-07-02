@@ -3,13 +3,13 @@ script_full_path=$(dirname "$0")
 DATE=$(date -R -u)
 cd $script_full_path
 
-rm Packages.xz Packages.g Release.gpg Release
+rm Packages.xz Packages.gz Release.gpg Release
 
-dpkg-scanpackages -m . > packages
+dpkg-scanpackages -m . > Packages
 gzip -c9 -k Packages > Packages.gz
 xz -c9 -k Packages > Packages.xz
 
-cd $script_full_path/dists/georgia
+cd $script_full_path
 
 OUTPUT="Release"
 FILES=(
@@ -62,6 +62,6 @@ generateHash sha512sum ${i}
 echo " ${RETURN}" >> ${OUTPUT}
 done
 
-gpg -abs --default-key F0F27C8758ADE7983CA32739EE6CD017B9244FB1 -o ./Release.gpg ./Release
+gpg -abs --default-key F0F27C8758ADE7983CA32739EE6CD017B9244FB1 -o Release.gpg Release
 
 echo "Done updating!"

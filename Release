@@ -3,27 +3,27 @@ Label: yourRepoNameHere
 Suite: stable
 Version: 1.0
 Codename: macOS
-Date: Tue, 02 Jul 2019 16:57:24 +0000
+Date: Tue, 02 Jul 2019 17:12:34 +0000
 Architectures: darwin-amd64
 Components: main
 Description: Your amazing description about your repository here
 MD5Sum:
-   Packages
- d41d8cd98f00b204e9800998ecf8427e        0 Packages.gz
- d41d8cd98f00b204e9800998ecf8427e        0 Packages.xz
- 8c8b7fb9102a2ad0dc218e2b8f92e5fc      370 Release
+ 4fb4f1a3409f53110c508318f08ff63e     1281 Packages
+ d3492ae59aded1f8bec953440dd929fc      566 Packages.gz
+ 84a2ebca778603f54201c6c412790fac      620 Packages.xz
+ d5550eff2106947463ea8cace1eccfbc      410 Release
 SHA1:
-   Packages
- da39a3ee5e6b4b0d3255bfef95601890afd80709        0 Packages.gz
- da39a3ee5e6b4b0d3255bfef95601890afd80709        0 Packages.xz
- 0501e33245eec5ade37c5bbf12503e3369a02528      565 Release
+ d778dbb1eff767de3b53edbd8ec376297b749235     1281 Packages
+ 73197893d78b7f80bfd59f1f5577ad5fe52140eb      566 Packages.gz
+ fc4f74b8715b174db227a05c1fc99e0ec7ae6013      620 Packages.xz
+ 92895f6e2e5c28cfb6cfbdb00ca554923effd6e7      653 Release
 SHA256:
-   Packages
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855        0 Packages.gz
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855        0 Packages.xz
- 0bdd33c08b51a29744a28a4a53c7b5b8d7ffc2d7003d578f3cb3eaf5ec39dcaa      818 Release
+ 478d944e8c3ff8f00fa7d29e14f5c07cffc220f84059322e5f57dcf7aa86cb6e     1281 Packages
+ 49769554a74c4ea20283a5048615eecab5a4e31e7ead000416da0793846c8222      566 Packages.gz
+ c5e297cc18b546c99dd6829c14b2737955bc00d541c39ac9f27efe249d8de015      620 Packages.xz
+ 03c49514204d9cdcc4e4f381da6ef74a9c6dbf77f2564f121317e06f8ab92036      978 Release
 SHA512:
-   Packages
- cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e        0 Packages.gz
- cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e        0 Packages.xz
- c2bf6b71df0fa0d08d5c6c32da2c14551e2203318f030f560ecc1718bc15fad9f347bdfc468ff8108f806fe14f30aedc5867f3aba3ff29496f805cdc14e6b836     1223 Release
+ b8e174a9218d9f51ce28e34957e6df463a5abf2c903cb384f199f28d2b18f7ae0f717c2f091273f7d4e4987c0c80e8089d2838c60e1032089258fc2016040617     1281 Packages
+ 51b99162e47e2033f66f135ac8e965f70bb9e4dcbb142a101bbbdbcfdaa18d88031c5e0dadae1a64daad80495fbc7d043087898fc9bb280847d8e2e50d1aaf81      566 Packages.gz
+ b8a602c927c45ea89bb7a83f955a2cbbc3d9f8948bf3c30cfb24e92450b2a81f927b7711ce9e709c0b46d5200494833c0c3afea1d01563a9eb81ea069e0a1436      620 Packages.xz
+ d8bee6de4111f39626f3f18f1aae23bb107147dc79faefe7bfc837f36c0595e06abd6e265cf510e322150b45ed59fbfe0cefdd549d594213bc2c950013d67445     1519 Release
